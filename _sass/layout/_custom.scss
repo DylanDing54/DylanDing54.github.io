@@ -128,19 +128,7 @@ html[data-theme="dark"] {
         color: var(--section-heading-color);
     }
 
-    /* The name already appears in the sidebar, so hide the duplicate
-       page title. Kept in the markup for SEO and screen readers. */
-    h1.page__title {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
-    }
+
 }
 
 /* --- Sidebar --- */
@@ -156,4 +144,19 @@ html[data-theme="dark"] {
    `.sidebar .author__name` in _sidebar.scss so it actually wins. */
 .sidebar .author__name {
     font-size: $type-size-3;
+}
+
+/* The name already appears in the sidebar, so hide the duplicate page
+   title. It lives in <header>, outside .page__content, and is kept in
+   the markup for SEO and screen readers. */
+.page__title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
