@@ -7,4 +7,5 @@ authors: "Kangbo Bai, Zhantong Zhu, <strong>Yifan Ding</strong>, Tianyu Jia*"
 venue: "Design, Automation and Test in Europe Conference"
 venue_short: "DATE"
 year: 2026
+paperurl: "https://ieeexplore.ieee.org/document/11539158"
 ---

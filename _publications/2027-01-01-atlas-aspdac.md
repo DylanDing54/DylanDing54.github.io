@@ -3,7 +3,7 @@ title: "ATLAS: A Thermal-Aware Hybrid-Bonding Based Heterogeneous Architecture E
 collection: publications
 category: conferences
 date: 2027-01-01
-authors: "<strong>Yifan Ding</strong>, Q. Wang, K. Ji, Dunshan Yu, Tianyu Jia*"
+authors: "<strong>Yifan Ding</strong>, Qianxu Wang, Keyi Ji, Dunshan Yu, Tianyu Jia*"
 venue: "Asia and South Pacific Design Automation Conference"
 venue_short: "ASP-DAC"
 year: 2027
