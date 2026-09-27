@@ -62,14 +62,11 @@ Education
 Experience
 ======
 <div class="experience-list">
-  <!-- Add an entry per position, newest first:
   <div class="experience-item">
-    <div class="experience-role"><strong>Research Intern</strong></div>
-    <div class="experience-org">Organization, City, Country</div>
-    <div class="experience-detail">What you worked on.</div>
-    <div class="experience-date">Jun. 2026 &ndash; Sep. 2026</div>
+    <div class="experience-role"><strong>Research Collaboration, Huawei 2012 Laboratories</strong></div>
+    <div class="experience-org">Joint university-industry project<span class="experience-date">Nov. 2025 &ndash; Feb. 2026</span></div>
+    <div class="experience-detail">Helped build a cycle-level simulator for a custom dataflow processor.</div>
   </div>
-  -->
 </div>
 
 Publications
