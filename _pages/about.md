@@ -25,7 +25,7 @@ Education
   <div class="education-item">
     <div class="education-degree"><strong>M.S. in Integrated Circuit Engineering</strong></div>
     <div class="education-school">Peking University, Beijing, China</div>
-    <div class="education-detail">Advisors: <a href="https://ic.pku.edu.cn/en/Faculty/Facultys/IntegratedCircuitDesign/Jia_Tianyu/index.htm">Prof. Tianyu Jia</a>, <a href="https://ic.pku.edu.cn/en/Faculty/Facultys/IntegratedCircuitDesign/YuDunshan/index.htm">Prof. Dunshan Yu</a></div>
+    <div class="education-detail">Advisors: Prof. Tianyu Jia, Prof. Dunshan Yu</div>
     <div class="education-date">Sep. 2024 &ndash; Jun. 2027 (expected)</div>
   </div>
   <div class="education-item">
