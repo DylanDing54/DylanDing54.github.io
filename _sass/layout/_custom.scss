@@ -241,3 +241,11 @@ html[data-theme="dark"] {
 .sidebar .author__name {
     margin-bottom: 0.6em;
 }
+
+/* --- Footer --- */
+
+/* No footer content is shown, so hide the bar entirely (it otherwise
+   leaves an empty tinted strip at the bottom of the page). */
+.page__footer {
+    display: none;
+}
