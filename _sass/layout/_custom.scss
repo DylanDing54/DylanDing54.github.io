@@ -128,9 +128,18 @@ html[data-theme="dark"] {
         color: var(--section-heading-color);
     }
 
-    /* keep the page title (the name at the top) in the normal text color */
+    /* The name already appears in the sidebar, so hide the duplicate
+       page title. Kept in the markup for SEO and screen readers. */
     h1.page__title {
-        color: var(--global-text-color);
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
     }
 }
 
@@ -141,4 +150,10 @@ html[data-theme="dark"] {
 .author__urls a {
     overflow-wrap: break-word;
     word-break: break-word;
+}
+
+/* Larger name in the sidebar. Matches the specificity of
+   `.sidebar .author__name` in _sidebar.scss so it actually wins. */
+.sidebar .author__name {
+    font-size: $type-size-3;
 }
