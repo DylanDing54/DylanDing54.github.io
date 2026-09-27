@@ -1,17 +1,21 @@
 # Projects shown in the Gallery section on the front page.
 #
-# Each entry renders as a titled block with a short description and a
-# row of photos underneath.
+# Each entry renders as a title, a row of photos, then a description.
 #
 #   title:       heading for the entry
-#   description: one paragraph shown under the title
 #   images:      list of photos, each with a filename in /images/gallery/
-#                (or a full https:// URL) and an optional caption
+#                (or a full https:// URL) and an `alt` description
+#   description: paragraph shown under the photos
 #
 # Images are shown at roughly 300-450px wide, so 800-1200px on the long
 # edge is plenty. Anything larger just slows the page down.
 
-- title: "A 22nm RISC-V SoC for Real-Time Speech Keyword Spotting"
+- title: "A 22nm RISC-V SoC Chip System for Speech Keyword Spotting Task Demonstration"
+  images:
+    - image: "kws-chip-die.jpg"
+      alt: "Annotated die photograph of the 22nm keyword spotting SoC"
+    - image: "kws-pcb-bringup.jpg"
+      alt: "Custom PCB test setup for post-silicon validation of the SoC"
   description: >-
     I independently carried this chip through the entire design flow:
     algorithm training and quantization, RTL implementation, FPGA
@@ -20,10 +24,3 @@
     custom PCB to integrate the system and ran post-silicon bring-up and
     debugging, culminating in an end-to-end real-time keyword spotting
     demonstration.
-  images:
-    - image: "kws-chip-die.jpg"
-      caption: "Die photo of the 2.49 &times; 2.14 mm chip, integrating the CIM array, a RISC-V CPU, a custom VPU, and a similarity-aware TCAM unit."
-      alt: "Annotated die photograph of the 22nm keyword spotting SoC"
-    - image: "kws-pcb-bringup.jpg"
-      caption: "Post-silicon bring-up on the custom test board, with the audio front end and the packaged chip in its test socket."
-      alt: "Custom PCB test setup for post-silicon validation of the SoC"

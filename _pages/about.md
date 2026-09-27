@@ -96,15 +96,14 @@ Gallery
 {% for entry in site.data.gallery %}
 <div class="gallery-entry">
   <div class="gallery-entry-title">{{ entry.title }}</div>
-  {% if entry.description %}<p class="gallery-entry-desc">{{ entry.description }}</p>{% endif %}
   <div class="gallery-grid">
   {% for photo in entry.images %}
     <figure class="gallery-item">
-      <img src="{{ photo.image | prepend: '/images/gallery/' | relative_url }}" alt="{{ photo.alt | default: photo.caption }}" loading="lazy">
-      {% if photo.caption %}<figcaption>{{ photo.caption }}</figcaption>{% endif %}
+      <img src="{{ photo.image | prepend: '/images/gallery/' | relative_url }}" alt="{{ photo.alt }}" loading="lazy">
     </figure>
   {% endfor %}
   </div>
+  {% if entry.description %}<p class="gallery-entry-desc">{{ entry.description }}</p>{% endif %}
 </div>
 {% endfor %}
 
