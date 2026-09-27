@@ -38,16 +38,9 @@ Publications
 <div class="publication-list">
 {% for post in site.publications reversed %}
   <div class="publication-item">
-    <div class="publication-title">{{ post.title }}</div>
+    <div class="publication-title">{% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}</div>
     <div class="publication-authors">{{ post.authors }}{% if post.author_note %} <span class="publication-note">{{ post.author_note }}</span>{% endif %}</div>
     <div class="publication-venue">{{ post.venue }}{% if post.venue_short %} (<span class="publication-venue-short">{{ post.venue_short }}</span>){% endif %}, {% if post.year %}{{ post.year }}{% else %}{{ post.date | date: "%Y" }}{% endif %}.{% if post.note %} <span class="publication-badge">{{ post.note }}</span>{% endif %}</div>
-    {% if post.paperurl or post.codeurl or post.slidesurl %}
-    <div class="publication-links">
-      {% if post.paperurl %}<a class="publication-link" href="{{ post.paperurl }}" target="_blank" rel="noopener">Paper</a>{% endif %}
-      {% if post.codeurl %}<a class="publication-link" href="{{ post.codeurl }}" target="_blank" rel="noopener">Code</a>{% endif %}
-      {% if post.slidesurl %}<a class="publication-link" href="{{ post.slidesurl }}" target="_blank" rel="noopener">Slides</a>{% endif %}
-    </div>
-    {% endif %}
   </div>
 {% endfor %}
 </div>

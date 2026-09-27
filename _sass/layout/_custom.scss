@@ -19,6 +19,22 @@
     line-height: 1.4;
     margin-bottom: 0.3em;
     color: var(--global-text-color);
+
+    a {
+        color: var(--global-text-color);
+        text-decoration: none;
+        transition: $global-transition;
+
+        &:visited {
+            color: var(--global-text-color);
+        }
+
+        &:hover,
+        &:focus {
+            color: var(--global-link-color);
+            text-decoration: underline;
+        }
+    }
 }
 
 .publication-authors {
@@ -58,39 +74,6 @@
     background-color: var(--global-base-color);
     color: #fff;
     vertical-align: middle;
-}
-
-.publication-links {
-    margin-top: 0.4em;
-}
-
-.publication-link {
-    display: inline-block;
-    font-size: 0.75em;
-    font-weight: 700;
-    line-height: 1;
-    padding: 0.35em 0.7em;
-    margin-right: 0.4em;
-    border: 1px solid var(--global-base-color);
-    border-radius: $border-radius;
-    color: var(--global-base-color);
-    text-decoration: none;
-    transition: $global-transition;
-
-    &:hover,
-    &:focus {
-        background-color: var(--global-base-color);
-        color: #fff;
-        text-decoration: none;
-    }
-
-    &:visited {
-        color: var(--global-base-color);
-    }
-
-    &:visited:hover {
-        color: #fff;
-    }
 }
 
 /* --- Education --- */
