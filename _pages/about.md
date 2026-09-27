@@ -40,7 +40,7 @@ Publications
   <div class="publication-item">
     <div class="publication-title">{{ post.title }}</div>
     <div class="publication-authors">{{ post.authors }}{% if post.author_note %} <span class="publication-note">{{ post.author_note }}</span>{% endif %}</div>
-    <div class="publication-venue">{{ post.venue }}, {% if post.year %}{{ post.year }}{% else %}{{ post.date | date: "%Y" }}{% endif %}.{% if post.note %} <span class="publication-badge">{{ post.note }}</span>{% endif %}</div>
+    <div class="publication-venue">{{ post.venue }}{% if post.venue_short %} (<span class="publication-venue-short">{{ post.venue_short }}</span>){% endif %}, {% if post.year %}{{ post.year }}{% else %}{{ post.date | date: "%Y" }}{% endif %}.{% if post.note %} <span class="publication-badge">{{ post.note }}</span>{% endif %}</div>
   </div>
 {% endfor %}
 </div>
@@ -51,7 +51,3 @@ Honors and Awards
 * Hefei University of Technology's Science and Technology Activity Awards, 2022
 * Honorable Mention, National Finals, 6th IC-Innovation Challenge for Graduate Students, 2022
 * Honorable Mention, FPGA Innovation Design Contest, Chinese Institute of Electronics, 2022
-
-Contact
-======
-The best way to reach me is by email at [2401210237@stu.pku.edu.cn](mailto:2401210237@stu.pku.edu.cn).

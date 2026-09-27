@@ -3,7 +3,8 @@ title: "ChipLight: Cross-Layer Optimization of Chiplet Design with Optical Inter
 collection: publications
 category: conferences
 date: 2026-04-01
-authors: "K. Bai, Z. Zhu, <strong>Yifan Ding</strong>, T. Jia*"
-venue: "Design, Automation and Test in Europe Conference (DATE)"
+authors: "Kangbo Bai, Zhantong Zhu, <strong>Yifan Ding</strong>, Tianyu Jia*"
+venue: "Design, Automation and Test in Europe Conference"
+venue_short: "DATE"
 year: 2026
 ---

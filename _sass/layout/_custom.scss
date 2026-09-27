@@ -34,6 +34,12 @@
     color: var(--global-fig-caption-color);
 }
 
+.publication-venue-short {
+    font-style: normal;
+    font-weight: 700;
+    color: var(--global-text-color);
+}
+
 .publication-note {
     font-size: 0.85em;
     font-style: italic;
@@ -88,4 +94,26 @@
     font-size: 0.85em;
     font-style: italic;
     color: var(--global-fig-caption-color);
+}
+
+/* --- Section headings in dark blue --- */
+
+/* Lightened in dark mode so the headings keep enough contrast there. */
+:root {
+    --section-heading-color: #1b3a6b;
+}
+
+html[data-theme="dark"] {
+    --section-heading-color: #7fb3d5;
+}
+
+.page__content {
+    h1, h2 {
+        color: var(--section-heading-color);
+    }
+
+    /* keep the page title (the name at the top) in the normal text color */
+    h1.page__title {
+        color: var(--global-text-color);
+    }
 }
