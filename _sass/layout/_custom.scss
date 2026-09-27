@@ -410,11 +410,11 @@ img.author__avatar {
 
 /* --- Content width --- */
 
-/* The theme reserves two of twelve columns as empty gutter on the right.
-   Give some of it back to the content so the longest gallery heading
-   (measured at 772px in 18px Georgia bold) still fits on one line. */
+/* Size the content column to the longest gallery heading, which measures
+   772px in 18px Georgia bold - this leaves it just a little wider than
+   that heading rather than reclaiming the whole right gutter. */
 @include breakpoint($large) {
     .page {
-        padding-right: 12%;
+        padding-right: 16%;
     }
 }
