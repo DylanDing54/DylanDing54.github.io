@@ -17,10 +17,10 @@
     - image: "kws-pcb-bringup.jpg"
       alt: "Custom PCB test setup for post-silicon validation of the SoC"
   description: >-
-    I independently carried this chip through the entire design flow:
-    algorithm training and quantization, RTL implementation, FPGA
-    verification, and front-end to back-end physical design for tape-out
-    in a 22nm process. After receiving the fabricated dies, I designed a
-    custom PCB to integrate the system and ran post-silicon bring-up and
-    debugging, culminating in an end-to-end real-time keyword spotting
-    demonstration.
+    I independently carried this chip development through the entire design
+    flow: algorithm model training and quantization, RTL implementation, FPGA
+    verification, and front-end-to-back-end physical design for tape-out at a
+    22nm technology node. After receiving the fabricated dies, I designed a
+    custom PCB to integrate the extension module with the chip system and
+    performed post-silicon bring-up, ultimately achieving a real-time
+    end-to-end Keyword Spotting (KWS) demonstration.
