@@ -40,7 +40,7 @@ Publications
   <div class="publication-item">
     <div class="publication-title">{{ post.title }}</div>
     <div class="publication-authors">{{ post.authors }}{% if post.author_note %} <span class="publication-note">{{ post.author_note }}</span>{% endif %}</div>
-    <div class="publication-venue">{{ post.venue }}, {{ post.year | default: post.date | date: "%Y" }}.{% if post.note %} <span class="publication-badge">{{ post.note }}</span>{% endif %}</div>
+    <div class="publication-venue">{{ post.venue }}, {% if post.year %}{{ post.year }}{% else %}{{ post.date | date: "%Y" }}{% endif %}.{% if post.note %} <span class="publication-badge">{{ post.note }}</span>{% endif %}</div>
   </div>
 {% endfor %}
 </div>
