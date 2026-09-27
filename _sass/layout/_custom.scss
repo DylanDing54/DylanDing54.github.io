@@ -140,22 +140,6 @@
 
 .news-text {
     color: var(--global-text-color);
-
-    /* Links here read as part of the sentence, so keep them in the body
-       color and mark them with an underline instead of the link blue. */
-    a {
-        color: var(--global-text-color);
-        text-decoration: underline;
-
-        &:visited {
-            color: var(--global-text-color);
-        }
-
-        &:hover,
-        &:focus {
-            color: var(--global-link-color);
-        }
-    }
 }
 
 /* --- Experience --- */
