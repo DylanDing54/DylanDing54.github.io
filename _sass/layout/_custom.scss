@@ -133,3 +133,12 @@ html[data-theme="dark"] {
         color: var(--global-text-color);
     }
 }
+
+/* --- Sidebar --- */
+
+/* The email address is shown in full, so let it wrap instead of
+   overflowing the sidebar on narrow screens. */
+.author__urls a {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}

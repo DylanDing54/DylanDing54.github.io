@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Yifan Ding"
   pronouns         : # example: "she/her"  
-  bio              : "MS student in Integrated Circuit Engineering. I work on 3D integration architectures and efficient AI accelerator chips."
+  bio              : # Short biography for the left-hand sidebar (left blank on purpose)
   location         : "Beijing, China"
   employer         : "Peking University"
   uri              : # URL
