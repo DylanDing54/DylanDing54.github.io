@@ -23,7 +23,7 @@ Recent News
   </div>
   <div class="news-item">
     <span class="news-date">05/2026</span>
-    <span class="news-text">Attended <strong>ISCAS 2026</strong>.</span>
+    <span class="news-text">Attended <strong>ISCAS 2026</strong>, supported by a conference sponsorship.</span>
   </div>
   <div class="news-item">
     <span class="news-date">05/2026</span>
