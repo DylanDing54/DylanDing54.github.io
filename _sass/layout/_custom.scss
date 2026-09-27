@@ -293,14 +293,14 @@ img.author__avatar {
 @include breakpoint($large) {
     .author__avatar img,
     img.author__avatar {
-        max-width: 135px;
+        max-width: 105px;
     }
 
     /* px rather than em: the theme sets `line-height: 1` here, and the
        first child (.author__name) has its own top margin, so an em value
        reads against an unexpected font size. */
     .author__content {
-        margin-top: 34px;
+        margin-top: 110px;
     }
 }
 
