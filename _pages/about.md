@@ -19,7 +19,7 @@ Recent News
 <div class="news-list">
   <div class="news-item">
     <span class="news-date">09/2026</span>
-    <span class="news-text">One paper accepted to <strong>ASP-DAC 2027</strong>.</span>
+    <span class="news-text">One first-author paper accepted to <strong>ASP-DAC 2027</strong>.</span>
   </div>
   <div class="news-item">
     <span class="news-date">05/2026</span>
@@ -27,15 +27,15 @@ Recent News
   </div>
   <div class="news-item">
     <span class="news-date">05/2026</span>
-    <span class="news-text">One paper accepted to <strong>ISLPED 2026</strong>.</span>
+    <span class="news-text">One first-author paper accepted to <strong>ISLPED 2026</strong>.</span>
   </div>
   <div class="news-item">
     <span class="news-date">11/2025</span>
-    <span class="news-text">One paper accepted to <strong>DATE 2026</strong>.</span>
+    <span class="news-text">One co-authored paper accepted to <strong>DATE 2026</strong>.</span>
   </div>
   <div class="news-item">
     <span class="news-date">11/2025</span>
-    <span class="news-text">One paper accepted to <strong>ISSCC 2026</strong> (Highlight).</span>
+    <span class="news-text">One co-authored paper accepted to <strong>ISSCC 2026</strong> (Highlight).</span>
   </div>
   <div class="news-item">
     <span class="news-date">09/2024</span>
