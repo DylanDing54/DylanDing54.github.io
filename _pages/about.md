@@ -88,8 +88,8 @@ Honors and Awards
 ======
 * Merit Student of Peking University, 2025
 * Hefei University of Technology's Science and Technology Activity Awards, 2022
-* Honorable Mention, National Finals, 6th IC-Innovation Challenge for Undergraduates, 2022
-* Honorable Mention, FPGA Innovation Design Contest, Chinese Institute of Electronics, 2022
+* Honorable Mention, National Finals, The 6th National College Student Integrated Circuit Innovation and Entrepreneurship, Ministry of Industry and Information Technology, 2022
+* Honorable Mention, National Finals, National College Student FPGA Innovation Design Competition, Chinese Institute of Electronics, 2022
 
 Gallery
 ======
