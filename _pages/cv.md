@@ -67,6 +67,6 @@ Honors and Awards
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  <ol>{% for post in site.publications reversed %}
+    <li>{{ post.citation }}</li>
+  {% endfor %}</ol>

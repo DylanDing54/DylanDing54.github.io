@@ -17,10 +17,6 @@ Research Interests
 * **Scalable AI computing systems** — heterogeneous GPU-PNM systems, chiplet architectures with optical interconnects, and cross-layer optimization for training clusters
 * **Efficient RISC-V AI accelerator chips** — compute-in-memory designs, full-stack implementation from RTL through tape-out
 
-Selected Work
-======
-My recent work spans several directions. **ATLAS** (ASP-DAC 2027) proposes a thermal-aware hybrid-bonding heterogeneous architecture for LLM multi-turn dialogue, using a prefix-cache Radix-tree strategy for dynamic request offloading between GPU and PNM. **MVP** (ISLPED 2026) is a mobile 3D-stacked VLM accelerator that exploits dynamic sparse attention patterns for video understanding, cutting attention computation by up to 80% with minimal accuracy loss. I also contributed to a 22nm streaming multi-speaker ASR accelerator published at **ISSCC 2026** (Highlight), where I independently carried an end-to-end KWS demo system from RTL design and FPGA prototyping through backend implementation and tape-out.
-
 See the [publications page](/publications/) for a full list, or my [CV](/cv/) for more detail.
 
 Contact
