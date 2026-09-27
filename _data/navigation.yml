@@ -1,29 +1,7 @@
 # The following is the order of the links in the header of the website.
 #
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-#
-# NOTE that only one of the CV options should be selected, the first is for the
-#      Markdown formatted page while the second is generated using JSON.
+# This site is a single-page homepage: all content (education, publications,
+# honors) lives on the front page, so the header navigation is intentionally
+# empty. Add entries back here if you later split content into separate pages.
 
-main:
-  - title: "Publications"
-    url: /publications/
-
-  - title: "CV"
-    url: /cv/
-
-  # Uncomment these as you add content to the matching collections.
-  #
-  # - title: "Talks"
-  #   url: /talks/
-  #
-  # - title: "Teaching"
-  #   url: /teaching/
-  #
-  # - title: "Portfolio"
-  #   url: /portfolio/
-  #
-  # - title: "Blog Posts"
-  #   url: /year-archive/
+main: []

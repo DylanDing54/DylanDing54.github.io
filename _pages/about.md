@@ -17,7 +17,40 @@ Research Interests
 * **Scalable AI computing systems** — heterogeneous GPU-PNM systems, chiplet architectures with optical interconnects, and cross-layer optimization for training clusters
 * **Efficient RISC-V AI accelerator chips** — compute-in-memory designs, full-stack implementation from RTL through tape-out
 
-See the [publications page](/publications/) for a full list, or my [CV](/cv/) for more detail.
+Education
+======
+<div class="education-list">
+  <div class="education-item">
+    <div class="education-degree"><strong>M.S. in Integrated Circuit Engineering</strong></div>
+    <div class="education-school">Peking University, Beijing, China</div>
+    <div class="education-detail">Advisors: Prof. Tianyu Jia, Prof. Dunshan Yu</div>
+    <div class="education-date">Sep. 2024 &ndash; Jun. 2027 (expected)</div>
+  </div>
+  <div class="education-item">
+    <div class="education-degree"><strong>B.S. in IC Design and Integrated Systems</strong></div>
+    <div class="education-school">Hefei University of Technology, Hefei, China</div>
+    <div class="education-date">Sep. 2019 &ndash; Jun. 2023</div>
+  </div>
+</div>
+
+Publications
+======
+<div class="publication-list">
+{% for post in site.publications reversed %}
+  <div class="publication-item">
+    <div class="publication-title">{{ post.title }}</div>
+    <div class="publication-authors">{{ post.authors }}{% if post.author_note %} <span class="publication-note">{{ post.author_note }}</span>{% endif %}</div>
+    <div class="publication-venue">{{ post.venue }}, {{ post.year | default: post.date | date: "%Y" }}.{% if post.note %} <span class="publication-badge">{{ post.note }}</span>{% endif %}</div>
+  </div>
+{% endfor %}
+</div>
+
+Honors and Awards
+======
+* Merit Student of Peking University, 2025
+* Hefei University of Technology's Science and Technology Activity Awards, 2022
+* Honorable Mention, National Finals, 6th IC-Innovation Challenge for Graduate Students, 2022
+* Honorable Mention, FPGA Innovation Design Contest, Chinese Institute of Electronics, 2022
 
 Contact
 ======
