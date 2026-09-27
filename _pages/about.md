@@ -17,20 +17,20 @@ Recent News
 ======
 <div class="news-list">
   <div class="news-item">
-    <span class="news-date">2026.09</span>
+    <span class="news-date">09/2026</span>
     <span class="news-text">One paper accepted to ASP-DAC 2027.</span>
   </div>
   <div class="news-item">
-    <span class="news-date">2026.05</span>
+    <span class="news-date">05/2026</span>
     <span class="news-text">One paper accepted to ISLPED 2026.</span>
   </div>
   <div class="news-item">
-    <span class="news-date">2025.11</span>
-    <span class="news-text">One paper accepted to ISSCC 2026 (Highlight).</span>
+    <span class="news-date">11/2025</span>
+    <span class="news-text">One paper accepted to DATE 2026.</span>
   </div>
   <div class="news-item">
-    <span class="news-date">2025.11</span>
-    <span class="news-text">One paper accepted to DATE 2026.</span>
+    <span class="news-date">11/2025</span>
+    <span class="news-text">One paper accepted to ISSCC 2026 (Highlight).</span>
   </div>
 </div>
 
