@@ -17,8 +17,8 @@
     - image: "kws-pcb-bringup.jpg"
       alt: "Custom PCB test setup for post-silicon validation of the SoC"
   description: >-
-    I independently carried this chip development through the entire design
-    flow: algorithm model training and quantization, RTL implementation, FPGA
+    I carried this demo chip development through the entire design flow:
+    algorithm model training and quantization, RTL implementation, FPGA
     verification, and front-end-to-back-end physical design for tape-out at a
     22nm technology node. After receiving the fabricated dies, I designed a
     custom PCB to integrate the extension module with the chip system and
