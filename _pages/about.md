@@ -9,7 +9,7 @@ redirect_from:
 
 About Me
 ======
-I am a Master's student in Integrated Circuit Engineering at [Peking University](https://www.pku.edu.cn/), advised by Prof. Tianyu Jia and Prof. Dunshan Yu. Before that, I received my Bachelor's degree in IC Design and Integrated Systems from Hefei University of Technology in 2023.
+I am a Master's student in Integrated Circuit Engineering at [Peking University](https://www.pku.edu.cn/), advised by [Prof. Tianyu Jia](https://ic.pku.edu.cn/en/Faculty/Facultys/IntegratedCircuitDesign/Jia_Tianyu/index.htm) and [Prof. Dunshan Yu](https://ic.pku.edu.cn/en/Faculty/Facultys/IntegratedCircuitDesign/YuDunshan/index.htm). Before that, I received my Bachelor's degree in Integrated Circuit Design and Integrated Systems from Hefei University of Technology in 2023.
 
 My research sits at the intersection of computer architecture and machine learning systems. I am interested in how emerging integration technologies — 3D stacking, hybrid bonding, chiplets, and optical interconnects — can be co-designed with algorithms to make large model inference and training substantially more efficient.
 
@@ -25,11 +25,11 @@ Education
   <div class="education-item">
     <div class="education-degree"><strong>M.S. in Integrated Circuit Engineering</strong></div>
     <div class="education-school">Peking University, Beijing, China</div>
-    <div class="education-detail">Advisors: Prof. Tianyu Jia, Prof. Dunshan Yu</div>
+    <div class="education-detail">Advisors: <a href="https://ic.pku.edu.cn/en/Faculty/Facultys/IntegratedCircuitDesign/Jia_Tianyu/index.htm">Prof. Tianyu Jia</a>, <a href="https://ic.pku.edu.cn/en/Faculty/Facultys/IntegratedCircuitDesign/YuDunshan/index.htm">Prof. Dunshan Yu</a></div>
     <div class="education-date">Sep. 2024 &ndash; Jun. 2027 (expected)</div>
   </div>
   <div class="education-item">
-    <div class="education-degree"><strong>B.S. in IC Design and Integrated Systems</strong></div>
+    <div class="education-degree"><strong>B.S. in Integrated Circuit Design and Integrated Systems</strong></div>
     <div class="education-school">Hefei University of Technology, Hefei, China</div>
     <div class="education-date">Sep. 2019 &ndash; Jun. 2023</div>
   </div>
