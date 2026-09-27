@@ -33,6 +33,10 @@ Recent News
     <span class="news-date">11/2025</span>
     <span class="news-text">One paper accepted to <strong>ISSCC 2026</strong> (Highlight).</span>
   </div>
+  <div class="news-item">
+    <span class="news-date">09/2024</span>
+    <span class="news-text">Joined the <a href="https://www.tianyuj.com/index.html" target="_blank" rel="noopener">PACIFIC Lab</a> at Peking University.</span>
+  </div>
 </div>
 
 Research Interests
@@ -84,5 +88,17 @@ Honors and Awards
 ======
 * Merit Student of Peking University, 2025
 * Hefei University of Technology's Science and Technology Activity Awards, 2022
-* Honorable Mention, National Finals, 6th IC-Innovation Challenge for Graduate Students, 2022
+* Honorable Mention, National Finals, 6th IC-Innovation Challenge for Undergraduates, 2022
 * Honorable Mention, FPGA Innovation Design Contest, Chinese Institute of Electronics, 2022
+
+Gallery
+======
+<div class="gallery-grid">
+{% for photo in site.data.gallery %}
+  <figure class="gallery-item">
+    <img src="{{ photo.image | prepend: '/images/gallery/' | relative_url }}" alt="{{ photo.alt | default: photo.caption }}" loading="lazy">
+    {% if photo.caption %}<figcaption>{{ photo.caption }}</figcaption>{% endif %}
+  </figure>
+{% endfor %}
+</div>
+

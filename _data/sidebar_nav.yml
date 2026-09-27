@@ -1,10 +1,13 @@
 # Anchor navigation shown in the left sidebar on the front page.
 # `id` must match the heading id Jekyll generates for that section,
 # which is the lowercased title with spaces replaced by dashes.
+#
+# Keep `title` identical to the heading text in _pages/about.md so the
+# sidebar and the page read the same.
 
-- title: "About"
+- title: "About Me"
   id: "about-me"
-- title: "News"
+- title: "Recent News"
   id: "recent-news"
 - title: "Research Interests"
   id: "research-interests"
@@ -14,5 +17,7 @@
   id: "experience"
 - title: "Publications"
   id: "publications"
-- title: "Honors & Awards"
+- title: "Honors and Awards"
   id: "honors-and-awards"
+- title: "Gallery"
+  id: "gallery"

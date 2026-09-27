@@ -1,0 +1,21 @@
+# Photos shown in the Gallery section on the front page.
+#
+# Drop image files into /images/gallery/ and add an entry here. Order in
+# this file is the order they appear on the page.
+#
+#   image:   filename inside /images/gallery/ (or a full https:// URL)
+#   caption: short line shown under the photo (optional)
+#   alt:     accessibility description (optional, falls back to caption)
+#
+# Entries whose image file is missing simply render as a broken tile, so
+# remove or comment out a line rather than leaving a placeholder name.
+
+# Example entries - uncomment and edit once real photos are in place:
+#
+# - image: "islped-2026.jpg"
+#   caption: "ISLPED 2026, Tokyo"
+#   alt: "Presenting the MVP paper at ISLPED 2026"
+#
+# - image: "lab-group.jpg"
+#   caption: "Lab group, Peking University"
+#   alt: "Group photo with labmates at Peking University"
