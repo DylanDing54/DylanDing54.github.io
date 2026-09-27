@@ -258,9 +258,10 @@ html[data-theme="dark"] {
     display: none;
 }
 
-/* The theme gives the avatar 5px of padding plus a 1px border, which
-   pushes the circle 6px right of the name and links below it. Pull it
-   back so the whole sidebar shares one left edge. */
+/* The theme insets the avatar image inside 5px of padding and a 1px
+   border, so the visible circle starts 6px right of the name and links
+   below it. Drop the inset so the circle shares the same left edge. */
 .author__avatar img {
-    margin-left: -6px;
+    padding: 0;
+    border: 0;
 }
