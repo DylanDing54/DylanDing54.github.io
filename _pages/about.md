@@ -45,14 +45,12 @@ Education
 <div class="education-list">
   <div class="education-item">
     <div class="education-degree"><strong>M.S. in Integrated Circuit Engineering</strong></div>
-    <div class="education-school">Peking University, Beijing, China</div>
+    <div class="education-school">Peking University, Beijing, China<span class="education-date">Sep. 2024 &ndash; Jun. 2027 (expected)</span></div>
     <div class="education-detail">Advisors: Prof. Tianyu Jia, Prof. Dunshan Yu</div>
-    <div class="education-date">Sep. 2024 &ndash; Jun. 2027 (expected)</div>
   </div>
   <div class="education-item">
     <div class="education-degree"><strong>B.S. in Integrated Circuit Design and Integrated Systems</strong></div>
-    <div class="education-school">Hefei University of Technology, Hefei, China</div>
-    <div class="education-date">Sep. 2019 &ndash; Jun. 2023</div>
+    <div class="education-school">Hefei University of Technology, Hefei, China<span class="education-date">Sep. 2019 &ndash; Jun. 2023</span></div>
   </div>
 </div>
 

@@ -95,6 +95,11 @@
 }
 
 .education-school {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0 1em;
     font-size: 0.9em;
     margin-bottom: 0.2em;
     color: var(--global-text-color);
@@ -106,9 +111,11 @@
     color: var(--global-text-color);
 }
 
+/* Sits on the school line, pushed to the right by the flex container.
+   Wraps onto its own line on narrow screens. */
 .education-date {
-    font-size: 0.85em;
     font-style: italic;
+    white-space: nowrap;
     color: var(--global-fig-caption-color);
 }
 
