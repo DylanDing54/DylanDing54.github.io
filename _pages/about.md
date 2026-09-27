@@ -13,6 +13,17 @@ I am a Master's student in Integrated Circuit Engineering at [Peking University]
 
 My research sits at the intersection of computer architecture and machine learning systems. I am interested in how emerging integration technologies — 3D stacking, hybrid bonding, chiplets, and optical interconnects — can be co-designed with algorithms to make large model inference and training substantially more efficient.
 
+Recent News
+======
+<div class="news-list">
+  <!-- Add an entry per item, newest first:
+  <div class="news-item">
+    <span class="news-date">Sep. 2026</span>
+    <span class="news-text">Your news goes here.</span>
+  </div>
+  -->
+</div>
+
 Research Interests
 ======
 * **3D integration architecture for emerging AI applications** — hybrid-bonding and 3D-stacked accelerators for LLM, VLM, and VLA workloads
@@ -33,6 +44,19 @@ Education
     <div class="education-school">Hefei University of Technology, Hefei, China</div>
     <div class="education-date">Sep. 2019 &ndash; Jun. 2023</div>
   </div>
+</div>
+
+Experience
+======
+<div class="experience-list">
+  <!-- Add an entry per position, newest first:
+  <div class="experience-item">
+    <div class="experience-role"><strong>Research Intern</strong></div>
+    <div class="experience-org">Organization, City, Country</div>
+    <div class="experience-detail">What you worked on.</div>
+    <div class="experience-date">Jun. 2026 &ndash; Sep. 2026</div>
+  </div>
+  -->
 </div>
 
 Publications
