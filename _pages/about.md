@@ -23,6 +23,10 @@ Recent News
   </div>
   <div class="news-item">
     <span class="news-date">05/2026</span>
+    <span class="news-text">Attended <strong>ISCAS 2026</strong>.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">05/2026</span>
     <span class="news-text">One paper accepted to <strong>ISLPED 2026</strong>.</span>
   </div>
   <div class="news-item">
