@@ -16,12 +16,22 @@ My research sits at the intersection of computer architecture and machine learni
 Recent News
 ======
 <div class="news-list">
-  <!-- Add an entry per item, newest first:
   <div class="news-item">
-    <span class="news-date">Sep. 2026</span>
-    <span class="news-text">Your news goes here.</span>
+    <span class="news-date">2026.09</span>
+    <span class="news-text">One paper accepted to ASP-DAC 2027.</span>
   </div>
-  -->
+  <div class="news-item">
+    <span class="news-date">2026.05</span>
+    <span class="news-text">One paper accepted to ISLPED 2026.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2025.11</span>
+    <span class="news-text">One paper accepted to ISSCC 2026 (Highlight).</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2025.11</span>
+    <span class="news-text">One paper accepted to DATE 2026.</span>
+  </div>
 </div>
 
 Research Interests
