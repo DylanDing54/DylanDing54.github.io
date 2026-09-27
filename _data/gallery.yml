@@ -20,7 +20,7 @@
     I carried this demo chip development through the entire design flow:
     algorithm model training and quantization, RTL implementation, FPGA
     verification, and front-end-to-back-end physical design for tape-out at a
-    22nm technology node. After receiving the fabricated dies, I designed a
-    custom PCB to integrate the extension module with the chip system and
+    22nm technology node. After receiving the fabricated dies, a custom PCB is
+    designed to integrate the extension module with the chip system and
     performed post-silicon bring-up, ultimately achieving a real-time
     end-to-end Keyword Spotting (KWS) demonstration.
