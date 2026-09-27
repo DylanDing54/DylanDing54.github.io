@@ -361,14 +361,33 @@ img.author__avatar {
 
 /* --- Gallery --- */
 
-/* Auto-fitting grid: tiles are at least 200px wide and share the row
+.gallery-entry {
+    margin-bottom: 1.8em;
+}
+
+.gallery-entry-title {
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 0.3em;
+    color: var(--global-text-color);
+}
+
+.gallery-entry-desc {
+    margin: 0 0 0.8em;
+    font-size: 0.92em;
+    line-height: 1.55;
+    color: var(--global-text-color);
+}
+
+/* Auto-fitting grid: tiles are at least 240px wide and share the row
    evenly, so the layout works for any number of photos without the
    theme's fixed half/third figure classes. */
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1em;
-    margin: 0.5em 0 1em;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.2em;
+    margin: 0;
+    align-items: start;
 }
 
 .gallery-item {
@@ -377,18 +396,20 @@ img.author__avatar {
     img {
         display: block;
         width: 100%;
-        height: 180px;
-        /* Uniform tile height regardless of the source aspect ratio. */
-        object-fit: cover;
+        /* `contain` rather than `cover`: these are technical photos whose
+           edge annotations must not be cropped away. */
+        height: 230px;
+        object-fit: contain;
         border-radius: 4px;
+        background-color: var(--global-code-background-color);
     }
 
     figcaption {
-        margin-top: 0.35em;
+        margin-top: 0.4em;
         font-family: $sans-serif;
-        font-size: 0.78em;
-        line-height: 1.35;
-        text-align: center;
+        font-size: 0.75em;
+        line-height: 1.4;
+        text-align: left;
         color: var(--global-fig-caption-color);
     }
 }
