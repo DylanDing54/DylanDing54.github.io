@@ -277,7 +277,7 @@ img.author__avatar {
 @include breakpoint($large) {
     .author__avatar img,
     img.author__avatar {
-        max-width: 185px;
+        max-width: 165px;
     }
 
     /* px rather than em: the theme sets `line-height: 1` here, and the
