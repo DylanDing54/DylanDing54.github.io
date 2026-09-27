@@ -126,8 +126,9 @@
 }
 
 .news-item {
-    margin-bottom: 0.25em;
-    line-height: 1.45;
+    margin-bottom: 0.1em;
+    font-size: 0.9em;
+    line-height: 1.35;
 }
 
 .news-date {
@@ -247,5 +248,12 @@ html[data-theme="dark"] {
 /* No footer content is shown, so hide the bar entirely (it otherwise
    leaves an empty tinted strip at the bottom of the page). */
 .page__footer {
+    display: none;
+}
+
+/* The article renders an empty <footer class="page__meta"> after the
+   content; with no children it still contributes margin and a rule,
+   leaving a stray bar at the bottom of the page. */
+.page__meta:empty {
     display: none;
 }
