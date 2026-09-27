@@ -2,6 +2,7 @@
 permalink: /
 title: "Yifan Ding"
 author_profile: true
+sidebar_nav: true
 redirect_from: 
   - /about/
   - /about.html

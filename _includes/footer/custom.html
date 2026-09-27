@@ -3,4 +3,56 @@
 <!-- Support for MathJax -->
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
 
+<!-- Highlight the sidebar nav link for the section currently in view -->
+<script>
+(function () {
+  var nav = document.getElementById('navLinks');
+  if (!nav) return;
+
+  var links = Array.prototype.slice.call(nav.querySelectorAll('a'));
+  var targets = links
+    .map(function (a) {
+      var el = document.getElementById(a.getAttribute('href').slice(1));
+      return el ? { link: a, el: el } : null;
+    })
+    .filter(Boolean);
+  if (!targets.length) return;
+
+  var current = null;
+  function setCurrent(link) {
+    if (link === current) return;
+    if (current) current.removeAttribute('aria-current');
+    if (link) link.setAttribute('aria-current', 'location');
+    current = link;
+  }
+
+  function update() {
+    // The section whose heading is highest on screen but still above the
+    // one-third line; falls back to the first once scrolled to the top.
+    var line = window.innerHeight / 3;
+    var best = null;
+    targets.forEach(function (t) {
+      var top = t.el.getBoundingClientRect().top;
+      if (top <= line) best = t;
+    });
+    if (!best && window.scrollY < 60) best = targets[0];
+    setCurrent(best ? best.link : null);
+  }
+
+  var ticking = false;
+  function onScroll() {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(function () {
+      update();
+      ticking = false;
+    });
+  }
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  update();
+})();
+</script>
+
 <!-- end custom footer snippets -->

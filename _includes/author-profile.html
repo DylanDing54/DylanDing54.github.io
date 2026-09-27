@@ -173,4 +173,15 @@
       {% endif %}      
     </ul>
   </div>
+
+  {% if page.sidebar_nav and site.data.sidebar_nav %}
+  <div class="sidebar-nav">
+    <div class="nav-heading">Sections</div>
+    <nav class="nav-links" id="navLinks" aria-label="Section navigation">
+      {% for item in site.data.sidebar_nav %}
+        <a href="#{{ item.id }}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+  {% endif %}
 </div>
