@@ -407,3 +407,13 @@ img.author__avatar {
         background-color: var(--global-code-background-color);
     }
 }
+
+/* --- Content width --- */
+
+/* The theme reserves two of twelve columns as empty gutter on the right.
+   Reclaim most of it so long headings fit on one line. */
+@include breakpoint($large) {
+    .page {
+        padding-right: 4.2372881356%;
+    }
+}
