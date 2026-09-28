@@ -431,3 +431,13 @@ img.author__avatar {
         max-width: 800px;
     }
 }
+
+/* --- Last updated --- */
+
+/* Date the page was last built, in small grey type at the very bottom. */
+.last-updated {
+    margin-top: 3em;
+    font-family: $sans-serif;
+    font-size: 0.75em;
+    color: var(--global-fig-caption-color);
+}
