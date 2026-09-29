@@ -87,6 +87,7 @@ Publications
 
 Honors and Awards
 ======
+* Social Work Award, Peking University, 2026
 * Merit Student of Peking University, 2025
 * Hefei University of Technology's Science and Technology Activity Awards, 2022
 * Honorable Mention, National Finals, The 6th National College Student Integrated Circuit Innovation and Entrepreneurship Competition, Ministry of Industry and Information Technology, 2022
