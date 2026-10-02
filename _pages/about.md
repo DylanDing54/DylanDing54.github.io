@@ -45,9 +45,9 @@ Recent News
 
 Research Interests
 ======
-* **3D integration architecture for emerging AI applications** — hybrid-bonding and 3D-stacked accelerators for LLM, VLM, and VLA workloads
-* **Scalable AI computing systems** — heterogeneous GPU-PNM systems, chiplet architectures with optical interconnects, and cross-layer optimization for training clusters
-* **Efficient RISC-V AI accelerator chips** — compute-in-memory designs, full-stack implementation from RTL through tape-out
+* 3D Integration Architecture for Emerging AI Applications
+* Efficient AI System with Software and Hardware Co-Optimization
+* Silicon-Proven AI Accelerator Chip Design
 
 Education
 ======
