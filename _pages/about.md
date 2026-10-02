@@ -89,7 +89,7 @@ Honors and Awards
 ======
 * Merit Student of Peking University
 * Social Work Award, Peking University
-* Science and Technology Activity Award, Hefei University of Technology
+<!-- * Science and Technology Activity Award, Hefei University of Technology -->
 * Honorable Mention, National Finals, The 6th National College Student Integrated Circuit Innovation and Entrepreneurship Competition, Ministry of Industry and Information Technology
 * Honorable Mention, National Finals, National College Student FPGA Innovation Design Competition, Chinese Institute of Electronics
 
