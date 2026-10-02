@@ -45,9 +45,9 @@ Recent News
 
 Research Interests
 ======
-* 3D Integration Architecture for Emerging AI Applications
-* Efficient AI System with Software and Hardware Co-Optimization
-* Silicon-Proven AI Accelerator Chip Design
+* **3D Integration Architecture for Emerging AI Applications**
+* **Efficient AI System with Software and Hardware Co-Optimization**
+* **Silicon-Proven AI Accelerator Chip Design**
 
 Education
 ======
