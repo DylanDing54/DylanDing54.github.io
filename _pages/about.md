@@ -112,4 +112,4 @@ Gallery
 </div>
 {% endfor %}
 
-<p class="last-updated">Last updated: {{ site.time | date: "%B %Y" }}</p>
+<p class="last-updated">Last updated: September 2026</p>
