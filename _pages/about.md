@@ -90,7 +90,7 @@ Honors and Awards
 {% comment %}
 Hidden for now:
 * Science and Technology Activity Award, Hefei University of Technology
-{% endcomment %}* Merit Student of Peking University
+{% endcomment %}* Merit Student, Peking University
 * Social Work Award, Peking University
 * Distinguished Trainee, "1000+" Talent Development Program for Outstanding Graduate Students, Peking University
 * Honorable Mention, National Finals, The 6th National College Student Integrated Circuit Innovation and Entrepreneurship Competition, Ministry of Industry and Information Technology
