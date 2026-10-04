@@ -17,7 +17,7 @@
     - image: "kws-pcb-bringup.jpg"
       alt: "Custom PCB test setup for post-silicon validation of the SoC"
   description: >-
-    I carried this demo chip development through the entire design flow:
+    I carried the demo chip development through the entire design flow:
     architecture definition, algorithm model training and quantization, RTL
     implementation, embedding system development, FPGA verification, and
     front-end-to-back-end physical design for tape-out at a 22nm technology
