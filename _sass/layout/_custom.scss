@@ -312,25 +312,24 @@ img.author__avatar {
     border-top: 1px solid var(--global-border-color);
 }
 
-/* Light blue chip. The text sits on a pale background, so it is dark
-   rather than white to keep enough contrast. */
+/* Navy chip, matching the dark blue used for the section headings. */
 .nav-heading {
     display: inline-block;
     padding: 0.3em 0.75em;
     margin-bottom: 0.6em;
     border-radius: $border-radius;
-    background-color: #d6ebf2;
+    background-color: #1b3a6b;
     font-family: Arial, $helvetica;
     font-size: 0.7em;
     font-weight: 600;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #1f5f73;
+    color: #fff;
 }
 
 html[data-theme="dark"] .nav-heading {
-    background-color: #2b4e5a;
-    color: #cfe8f0;
+    background-color: #2d5490;
+    color: #fff;
 }
 
 .nav-links {
