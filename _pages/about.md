@@ -10,7 +10,7 @@ redirect_from:
 
 About Me
 ======
-I am a Master's student in Integrated Circuit Engineering at [Peking University](https://www.pku.edu.cn/), advised by [Prof. Tianyu Jia](https://ic.pku.edu.cn/en/Faculty/Facultys/IntegratedCircuitDesign/Jia_Tianyu/index.htm) and [Prof. Dunshan Yu](https://ic.pku.edu.cn/en/Faculty/Facultys/IntegratedCircuitDesign/YuDunshan/index.htm). Before that, I received my Bachelor's degree in Integrated Circuit Design and Integrated Systems from Hefei University of Technology.
+I am a master's student in Integrated Circuit Engineering at [Peking University](https://www.pku.edu.cn/), advised by [Prof. Tianyu Jia](https://ic.pku.edu.cn/en/Faculty/Facultys/IntegratedCircuitDesign/Jia_Tianyu/index.htm) and [Prof. Dunshan Yu](https://ic.pku.edu.cn/en/Faculty/Facultys/IntegratedCircuitDesign/YuDunshan/index.htm). Before that, I received my bachelor's degree in Integrated Circuit Design and Integrated Systems from Hefei University of Technology.
 
 My research focuses on the intersection of computer architecture and machine learning systems. I am especially interested in how emerging integration technologies such as 3D stacking, chiplets, and optical interconnects can be co-designed with algorithm optimization to make large-model inference and training more efficient.
 
