@@ -69,7 +69,7 @@ Experience
   <div class="experience-item">
     <div class="experience-role"><strong>Project Collaboration, Huawei 2012 Laboratories</strong></div>
     <div class="experience-org">Joint university-industry project<span class="experience-date">Nov. 2025 &ndash; Feb. 2026</span></div>
-    <div class="experience-detail">Helped build a cycle-level hardware simulator for a custom dataflow processor.</div>
+    <div class="experience-detail">Helped build a cycle-level hardware simulator for a custom dataflow processor as part of a pre-research project.</div>
   </div>
 </div>
 
