@@ -39,7 +39,7 @@ Recent News
   </div>
   <div class="news-item">
     <span class="news-date">09/2024</span>
-    <span class="news-text">Joined the <a href="https://www.tianyuj.com/index.html" target="_blank" rel="noopener">PACIFIC Lab</a> at Peking University.</span>
+    <span class="news-text">Joined the <a href="https://www.tianyuj.com/index.html" target="_blank" rel="noopener">PACIFIC Lab</a> at Peking University as a Master&rsquo;s student.</span>
   </div>
 </div>
 
