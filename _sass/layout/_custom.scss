@@ -476,3 +476,89 @@ html[data-theme="dark"] .nav-heading {
 html[data-theme="dark"] .greedy-nav .visible-links a:before {
     background: #7fb3d5;
 }
+
+/* --- Aesthetic polish, adapted from kunmingshao.github.io --- */
+
+/* Smooth anchor jumps from the sidebar nav. */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Section headings get a hairline rule underneath, like the
+   reference's section titles. */
+.page__content h1 {
+    padding-bottom: 0.35em;
+    border-bottom: 1px solid var(--global-border-color);
+}
+
+/* Inline links: one accent navy across the site, with the reference's
+   soft accent-tinted underline and offset. */
+.page__content {
+    a {
+        color: #1b3a6b;
+        text-decoration: underline;
+        text-decoration-color: rgba(27, 58, 107, 0.35);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 2px;
+        transition: $global-transition;
+
+        &:visited {
+            color: #1b3a6b;
+        }
+
+        &:hover,
+        &:focus {
+            color: #1b3a6b;
+            text-decoration-color: #1b3a6b;
+        }
+    }
+}
+
+html[data-theme="dark"] .page__content {
+    a {
+        color: #7fb3d5;
+        text-decoration-color: rgba(127, 179, 213, 0.4);
+
+        &:visited {
+            color: #7fb3d5;
+        }
+
+        &:hover,
+        &:focus {
+            color: #7fb3d5;
+            text-decoration-color: #7fb3d5;
+        }
+    }
+}
+
+/* Publication titles read as headings rather than inline citations:
+   no underline at rest, navy plus underline on hover, as on the
+   reference's publication list. */
+.publication-title a {
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:visited {
+        color: var(--global-text-color);
+    }
+
+    &:hover,
+    &:focus {
+        color: #1b3a6b;
+        text-decoration: underline;
+        text-decoration-color: #1b3a6b;
+        text-underline-offset: 3px;
+    }
+}
+
+html[data-theme="dark"] .publication-title a {
+    &:hover,
+    &:focus {
+        color: #7fb3d5;
+        text-decoration-color: #7fb3d5;
+    }
+}
