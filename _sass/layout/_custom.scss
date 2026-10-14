@@ -461,3 +461,18 @@ html[data-theme="dark"] .nav-heading {
     font-size: 0.68em;
     color: var(--global-text-color-light);
 }
+
+/* --- Masthead link underline --- */
+
+/* The theme already animates a scaleX underline under the masthead
+   links on hover, but draws it in the near-invisible border color.
+   Redraw it in the site navy, 2px high, like the nav on the reference
+   site. */
+.greedy-nav .visible-links a:before {
+    height: 2px;
+    background: #1b3a6b;
+}
+
+html[data-theme="dark"] .greedy-nav .visible-links a:before {
+    background: #7fb3d5;
+}
