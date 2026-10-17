@@ -67,7 +67,7 @@ Experience
 ======
 <div class="experience-list">
   <div class="experience-item">
-    <div class="experience-role"><strong>Student Researcher, Huawei 2012 Laboratories</strong></div>
+    <div class="experience-role"><strong>Student Researcher, Huawei 2012 Laboratories &amp; Peking University</strong></div>
     <div class="experience-org">Industry&ndash;Academia Collaborative Project<span class="experience-date">Nov. 2025 &ndash; Feb. 2026</span></div>
     <div class="experience-detail">Helped build a cycle-level hardware simulator for a custom tensor streaming processor as part of a pre-research project.</div>
   </div>
