@@ -108,7 +108,7 @@ Gallery
     </figure>
   {% endfor %}
   </div>
-  {% if entry.description %}<p class="gallery-entry-desc">{{ entry.description }}</p>{% endif %}
+  {% if entry.description %}<div class="gallery-entry-desc">{{ entry.description | markdownify }}{% if entry.note %}<p class="gallery-entry-note">{{ entry.note }}</p>{% endif %}</div>{% endif %}
 </div>
 {% endfor %}
 

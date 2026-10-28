@@ -23,3 +23,4 @@
     front-end-to-back-end physical design for tape-out at a 22nm technology
     node, custom PCB integration, post-silicon bring-up, ultimately achieving
     a real-time end-to-end Keyword Spotting (KWS) demo.
+  note: "This work is part of co-authored ISSCC 2026."
