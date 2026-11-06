@@ -427,9 +427,12 @@ html[data-theme="dark"] .nav-heading {
         display: block;
         width: 100%;
         /* `contain` rather than `cover`: these are technical photos whose
-           edge annotations must not be cropped away. */
+           edge annotations must not be cropped away. Anchored left so
+           tiles with different aspect ratios share one left edge with
+           the title and description above. */
         height: 160px;
         object-fit: contain;
+        object-position: left center;
         border-radius: 4px;
         background-color: var(--global-code-background-color);
     }
