@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Yifan Ding"
+seo_title: "Yifan Ding - Homepage"
 author_profile: true
 sidebar_nav: true
 redirect_from: 

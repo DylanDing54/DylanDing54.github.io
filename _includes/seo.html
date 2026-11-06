@@ -6,7 +6,10 @@
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
 
-{% if page.title %}
+{% if page.seo_title %}
+  {% comment %}Per-page override for the browser/search title. {% endcomment %}
+  {% assign seo_title = page.seo_title %}
+{% elsif page.title %}
   {% if page.title == site.title %}
     {% comment %} Avoid a title like "Name - Name" on the front page. {% endcomment %}
     {% assign seo_title = page.title %}
