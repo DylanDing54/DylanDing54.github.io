@@ -19,6 +19,10 @@ Recent News
 ======
 <div class="news-list">
   <div class="news-item">
+    <span class="news-date">11/2026</span>
+    <span class="news-text">Our paper FlashServe was accepted to <strong>DATE 2027</strong>.</span>
+  </div>
+  <div class="news-item">
     <span class="news-date">09/2026</span>
     <span class="news-text">One first-author paper accepted to <strong>ASP-DAC 2027</strong>.</span>
   </div>
@@ -81,7 +85,7 @@ Publications
   <div class="publication-item">
     <div class="publication-title">{% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}</div>
     <div class="publication-authors">{{ post.authors }}{% if post.author_note %} <span class="publication-note">{{ post.author_note }}</span>{% endif %}</div>
-    <div class="publication-venue">{{ post.venue }}{% if post.venue_short %} (<span class="publication-venue-short">{{ post.venue_short }}</span>){% endif %}, {% if post.year %}{{ post.year }}{% else %}{{ post.date | date: "%Y" }}{% endif %}.{% if post.note %} <span class="publication-badge">{{ post.note }}</span>{% endif %}</div>
+    <div class="publication-venue">{{ post.venue }}{% if post.venue_short %} (<span class="publication-venue-short">{{ post.venue_short }}</span>){% endif %}, {% if post.year %}{{ post.year }}{% else %}{{ post.date | date: "%b. %Y" }}{% endif %}.{% if post.note %} <span class="publication-badge">{{ post.note }}</span>{% endif %}</div>
   </div>
 {% endfor %}
 </div>
@@ -112,5 +116,3 @@ Gallery
   {% if entry.description %}<div class="gallery-entry-desc">{{ entry.description | markdownify }}{% if entry.note %}<p class="gallery-entry-note">{{ entry.note }}</p>{% endif %}</div>{% endif %}
 </div>
 {% endfor %}
-
-<p class="last-updated">Last updated: September 2026</p>
