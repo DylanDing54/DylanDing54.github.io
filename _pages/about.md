@@ -20,7 +20,7 @@ Recent News
 <div class="news-list">
   <div class="news-item">
     <span class="news-date">11/2026</span>
-    <span class="news-text">One co-authored paper, FlashServe, was accepted to <strong>DATE 2027</strong>.</span>
+    <span class="news-text">One co-authored paper was accepted to <strong>DATE 2027</strong>.</span>
   </div>
   <div class="news-item">
     <span class="news-date">09/2026</span>
